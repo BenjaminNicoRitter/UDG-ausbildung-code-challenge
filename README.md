@@ -15,12 +15,11 @@ Dieses Projekt wurde im Rahmen einer Probeaufgabe erstellt. Ziel ist es, eine CS
 ## Projektstruktur
 
 ```plaintext
-├── app.py                # Hauptanwendung (Kommandozeile)
-├── requirements.txt      # Abhängigkeiten für Python
-├── test.csv              # Beispiel-CSV für Tests
-├── README.md             # Projektbeschreibung und Anleitung
-├── Aufgabenergebnis.md   # Offizielles Aufgaben-Dokument
-└── .gitignore            # (optional) Ignoriert z.B. __pycache__
+├ app.py                # Hauptanwendung (Kommandozeile)
+├ requirements.txt      # Abhängigkeiten für Python
+├ Ausgaben.csv          # Beispiel-CSV für Tests
+├ README.md             # Projektbeschreibung und Anleitung
+└ Aufgabenergebnis.pdf  # Offizielles Aufgaben-Dokument
 ```
 
 ##  Installation & Ausführung
@@ -39,12 +38,12 @@ $ python app.py
 
 ### Hinweis:
 - Alle Aktionen finden direkt in der Kommandozeile statt (Menüführung).
-- Eine Beispieldatei (`test.csv`) ist bereits enthalten.
+- Eine Beispieldatei (`Ausgaben.csv`) ist bereits enthalten.
 
 ## Features
 
 - CSV-Datei importieren
 - Datensätze anzeigen (tabellarisch)
-- Datensätze bearbeiten oder neue hinzufügen
+- Datensätze bearbeiten, löschen oder neue hinzufügen
 - CSV-Daten als Tortendiagramm visualisieren
-- CSV-Daten exportieren
+- CSV-Dateien Speichern / Exportieren
