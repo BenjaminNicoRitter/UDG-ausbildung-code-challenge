@@ -14,7 +14,7 @@ benötigt, habe ich mich für eine reine Konsolenanwendung entschieden.
 
 ## Eingesetzte 3rd Party Libraries
 
-Ich setze in meinem Projekt die folgenden 3rd Party Libraries ein: (falls keine, Tabelle entfernen und begründen warum)
+Ich setze in meinem Projekt die folgenden 3rd Party Libraries ein:
 
 Name | Begründung
 --- | ---
