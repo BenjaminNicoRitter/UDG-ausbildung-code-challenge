@@ -26,6 +26,7 @@ Name | Begründung
 ## Installation / Ausführen des Projektes
 
 Folgende Komponenten müssen lokal installiert sein:
+
  • [Python](https://www.python.org/) v3.12
 
 Um das Projekt lokal auszuführen, folgendes in der Commandline / Bash eingeben:
