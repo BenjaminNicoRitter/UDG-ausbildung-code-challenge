@@ -4,11 +4,13 @@
 
 Folgende Technologien / Frameworks setze ich in meinem Projekt ein:
 
-- JavaScript / jQuery
-- PHP / Symfony
-- ...
+- Python 3.12
 
-Ich habe mich für jQuery entschieden, weil ...
+Ich habe mich für Python entschieden, da ich seit etwa 2 Jahren regelmäßig mit dieser 
+Sprache arbeite und damit sicher umgehen kann. Python eignet sich hervorragend für die 
+schnelle Umsetzung von Datenverarbeitungsaufgaben wie CSV-Parsing und 
+Datenanalyse. Da das Projekt eher datengetrieben ist und keinen komplexen Web-Stack 
+benötigt, habe ich mich für eine reine Konsolenanwendung entschieden.
 
 ## Eingesetzte 3rd Party Libraries
 
@@ -16,28 +18,22 @@ Ich setze in meinem Projekt die folgenden 3rd Party Libraries ein: (falls keine,
 
 Name | Begründung
 --- | ---
-[moment.js](https://momentjs.com/) | Zur Berechnung von Datumswerten und Umwandlung von Formaten.
-[Bootstrap](https://getbootstrap.com/) | Einfaches RWD Framework zur Gestaltung des Frontends
+[pandas](https://pandas.pydata.org/) | Für das Einlesen, Bearbeiten und Exportieren von CSV-Dateien
+[os](https://docs.python.org/3/library/os.html) | Für Dateipfade und Verzeichnis-Operationen im lokalen Dateisystem
+[colorama](https://pypi.org/project/colorama/) | Für eine farbige und übersichtliche Konsolenausgabe
+[matplotlib](https://matplotlib.org/) | Für die Erstellung eines Kuchendiagramms zur Visualisierung der Daten
 
 ## Installation / Ausführen des Projektes
 
-Beschreibe, wie wir uns das Projekt lokal anschauen können.
-
-Zum Beispiel:
-
----
-
 Folgende Komponenten müssen lokal installiert sein:
-
-- [nodejs](https://nodejs.org/en/) v13.2.0
-- [.NET Core](https://dotnet.microsoft.com/download) v3.1
+ • [Python](https://www.python.org/) v3.12
 
 Um das Projekt lokal auszuführen, folgendes in der Commandline / Bash eingeben:
 
 ```console
-$ git clone <linktorepository> udg-probeaufgabe
-$ cd udg-probeaufgabe
-$ npm install
-$ npm run start
+$ git clone https://github.com/BenjaminNicoRitter/UDG-ausbildung-code-challenge
+$ cd UDG-ausbildung-code-challenge
+$ pip install -r requirements.txt
+$ python app.py
 ```
 ---
