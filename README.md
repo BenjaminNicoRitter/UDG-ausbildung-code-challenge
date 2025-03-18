@@ -2,7 +2,7 @@
 
 ## Projektbeschreibung
 
-Dieses Projekt wurde im Rahmen einer Probeaufgabe erstellt. Ziel ist es, eine CSV-Datei zu importieren, die Daten tabellarisch darzustellen, Datensätze zu bearbeiten oder neue hinzuzufügen, eine grafische Auswertung (Tortendiagramm) zu erstellen und die bearbeiteten Daten wieder als CSV zu exportieren. Die gesamte Anwendung läuft über die Kommandozeile.
+Dieses Projekt wurde im Rahmen einer Probeaufgabe erstellt. Ziel ist es, eine CSV-Datei zu importieren, die Daten tabellarisch darzustellen, Datensätze zu bearbeiten, zu löschen oder neue hinzuzufügen, eine grafische Auswertung (Tortendiagramm) zu erstellen und die bearbeiteten Daten wieder als CSV zu exportieren. Die gesamte Anwendung läuft über die Kommandozeile.
 
 ## Verwendete Technologien
 
